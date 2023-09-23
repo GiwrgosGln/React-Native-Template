@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { useColorScheme, Text } from "react-native";
-import { Paragraph, XStack, TamaguiProvider, Theme, YStack, Button } from "tamagui";
+import {  TamaguiProvider, Theme, YStack } from "tamagui";
 import { useFonts } from "expo-font";
 import config from "./tamagui.config";
 import NativeWind from "./components/NativeWind"
@@ -22,8 +22,8 @@ export default function App() {
           jc='center'
           ai="center"
           backgroundColor={"$backgroundSoft"}>
-            <Text className="text-4xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-600">Expo</Text>
-            <Text className="text-4xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-600">Tamagui</Text>
+            <Text className="text-4xl">Expo</Text>
+            <Text className="text-3xl text-red-500">Tamagui</Text>
             <NativeWind />
           <StatusBar style="auto" />
         </YStack>
