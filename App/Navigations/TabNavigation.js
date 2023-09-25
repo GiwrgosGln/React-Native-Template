@@ -21,6 +21,8 @@ export default function TabNavigation() {
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home" color={color} size={size} />
           ),
+          tabBarActiveTintColor: "white",
+          tabBarStyle: { backgroundColor: "black" },
         }}
       />
       <Tab.Screen
