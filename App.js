@@ -3,7 +3,7 @@ import { useColorScheme, Text } from "react-native";
 import { TamaguiProvider, Theme, YStack } from "tamagui";
 import { useFonts } from "expo-font";
 import config from "./tamagui.config";
-import NativeWind from "./components/NativeWind";
+import NativeWind from "./App/components/NativeWind";
 import { NavigationContainer } from "@react-navigation/native";
 import TabNavigation from "./App/Navigations/TabNavigation";
 
